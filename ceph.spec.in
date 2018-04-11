@@ -295,6 +295,7 @@ Requires:      python%{_python_buildid}-requests
 Requires:      python%{_python_buildid}-setuptools
 Requires:      util-linux
 Requires:      xfsprogs
+Requires:      e2fsprogs
 Requires:      which
 %if 0%{?suse_version}
 Recommends:    chrony
